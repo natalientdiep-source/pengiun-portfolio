@@ -1,0 +1,95 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+ background-color: lightcyan; 
+}
+
+main {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+h1{
+  color: #004d40;
+  font-family: 'risque', cursive;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+h2 {
+  color: #004d40;
+  font-family: 'risque', cursive;
+  text-align: center;
+  padding-top: 1em;
+}
+h3 {
+  color: #004d40;
+  font-family: 'risque', cursive;
+  text-align: center;
+  padding-top: 0.5em;
+}
+p {
+  color: #1E293B;
+  font-family: 'open sans', sans-serif;
+  text-align: center;
+  font-size: 18px;
+}
+
+li {
+  color: #1E293B;
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  list-style-position: inside;
+}
+
+img {
+  max-width: 40%;
+  border-radius: 20%;
+  border: 3px solid #004d40;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+.retrogame {
+  margin-top: 20px;
+}
+
+.christmas {
+  float: right;
+  margin-left: 20px;
+  margin-right: 100px;
+  width: 400px;
+  height: auto;
+  border: none;
+}
+
+.nav {
+  list-style-type: none;
+  background-color: #004d40;
+  overflow: hidden;
+  padding: 1em;
+  text-align: center;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: lightcyan;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+.nav li a:hover {
+  background-color: #1E293B
+}
